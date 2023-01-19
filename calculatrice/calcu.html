@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="calcu.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="output">0</div>
+    <div class="conteneur">
+        <button onclick='reset()'>AC</button>
+        <button onclick='rem1()'>CE</button>
+        <button value="%" onclick='showValue(this)'>%</button>
+
+        <button value="/" onclick='showValue(this)'>/</button>
+        <button value="7" onclick='showValue(this)'>7</button>
+        <button value="8" onclick='showValue(this)'>8</button>
+
+        <button value="9" onclick='showValue(this)'>9</button>
+        <button value="*" onclick='showValue(this)'>x</button>
+        <button value="4" onclick='showValue(this)'>4</button>
+
+        <button value="5" onclick='showValue(this)'>5</button>
+        <button value="6" onclick='showValue(this)'>6</button>
+        <button value="-" onclick='showValue(this)'>-</button>
+
+        <button value="1" onclick='showValue(this)'>1</button>
+        <button value="2" onclick='showValue(this)'>2</button>
+        <button value="3" onclick='showValue(this)'>3</button>
+
+        <button value="+" onclick='showValue(this)'>+</button>
+        <button value="0" onclick='showValue(this)'>0</button>
+        <button value="." onclick='showValue(this)'>.</button>
+        <button onclick='doMath()'>=</button>
+    </div>
+<script>
+
+</script>
+
+<script src="calcu.js"></script>
+</body>
+</html>
