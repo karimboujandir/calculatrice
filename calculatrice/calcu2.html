@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcu2.css">
+
+    <title>calculatrice</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="3"><input id="output" /></td>
+            <td><button onclick="supp()">c</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="afficher('1')">1</button></td>
+            <td><button onclick="afficher('2')">2</button></td>
+            <td><button onclick="afficher('3')">3</button></td>
+            <td><button onclick="afficher('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="afficher('4')">4</button></td>
+            <td><button onclick="afficher('5')">5</button></td>
+            <td><button onclick="afficher('6')">6</button></td>
+            <td><button onclick="afficher('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="afficher('7')">7</button></td>
+            <td><button onclick="afficher('8')">8</button></td>
+            <td><button onclick="afficher('9')">9</button></td>
+            <td><button onclick="afficher('x')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="afficher('.')">.</button></td>
+            <td><button onclick="afficher('0')">0</button></td>
+            <td><button onclick="egale()">=</button></td>
+            <td><button onclick="afficher('/')">/</button></td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="calcu2.js"></script>
+</body>
+
+</html>
